@@ -1,0 +1,24 @@
+<!--miniprogram/pages/loversmile/loversmile.wxml-->
+<!-- <text>miniprogram/pages/loversmile/loversmile.wxml</text> -->
+<!--index.wxml-->
+<view class="container">
+
+<!-- 用户 openid -->
+<!-- <view class="userinfo">
+  <text class="p">{{a}}</text>
+  <view class="userinfo-nickname-wrapper">
+    <button class="userinfo-nickname" bindtap="onTestName">点击获取</button>
+  </view>
+</view> -->
+<view >
+  
+  <view class="userinfo-nickname-wrapper">
+    <button class="userinfo-nickname" bindtap="onGetRandName">点击获取一个名字</button>
+  </view>
+  
+</view>
+<view><text class="p">{{name}}</text></view>
+<view>
+  <image src="https://www.loujunkai.club/bottom.png" mode="aspectFit" ></image>
+</view>
+</view>
